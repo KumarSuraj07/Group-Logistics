@@ -42,7 +42,7 @@ const LocationMap = () => {
               style={{ left: location.x, top: location.y }}
             >
               <div className="flex flex-col items-center">
-                <div className="bg-red-500 text-white p-2 rounded-full mb-2 shadow-lg">
+                <div className="bg-red-400 text-white p-2 rounded-full mb-2 shadow-lg">
                   📍
                 </div>
                 <div className="bg-white px-3 py-1 rounded-full shadow-md text-sm font-semibold text-gray-800">
