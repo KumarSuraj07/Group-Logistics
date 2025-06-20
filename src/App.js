@@ -8,14 +8,16 @@ import './index.css';
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/about" element={<AboutPage />} />
-        <Route path="/services" element={<ServicesPage />} />
-        <Route path="/companies" element={<CompaniesPage />} />
-      </Routes>
-    </Router>
+    <div className="overflow-x-hidden">
+      <Router>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/services" element={<ServicesPage />} />
+          <Route path="/companies" element={<CompaniesPage />} />
+        </Routes>
+      </Router>
+    </div>
   );
 }
 
